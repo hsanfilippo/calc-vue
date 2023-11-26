@@ -51,13 +51,9 @@
           <span v-else-if="estado.mostraOperador == '/'">{{ estado.numX / estado.numY }}</span>
           <span v-else>Selecione um Operador</span>
         </p>
-
       </div>
     </div>
-
-    <div class="row mt-4 mb-4">
-
-    </div>
+    
   </div>
 </template>
 
